@@ -1,0 +1,51 @@
+body{
+    background-color: #7C33A7;
+    background: linear-gradient(to right, #7C33A7, #5338AC);
+}
+
+nav {
+    background-color: #0a0a0a;
+    color: #edf0f1;
+}
+
+a{
+    color: #edf0f1 !important;
+    transition: 0.7s !important;
+}
+
+a:hover {
+    color: #57409f !important;
+}
+
+.material-symbols-rounded {
+    color: #edf0f1;
+}
+
+.navbar-nav {
+    transition: 2s;
+}
+
+.fondo{
+    background-color: none;
+}
+
+.blanco{
+    color:#edf0f1;
+}
+
+.purpura{
+    color:#57409f !important;
+}
+
+.tarea {
+    background-color: #141414;
+    border-radius: 20px;
+    color:#edf0f1;
+    cursor: pointer;
+    transition: 0.3s
+}
+
+.tarea:hover{
+    background-color: #292929;
+    box-shadow: 0px 10px 5px black, inset 0px 5px 5px #414141;
+}

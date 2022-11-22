@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheets/login_styles.css" rel="stylesheet">
+    <title>Tyms|Iniciar sesión</title>
+</head>
+<body>
+    <div class="container w-75 bg-primary mt-5 shadow-lg">
+        <div class="row align-items-stretch">
+            <div class="col bg d-none d-lg-block col-md-5 col-xl-6">
+                
+            </div>
+            <div class="col p-5 areaForm">
+                <div class="text-end">
+                    <img src="stylesheets/assets/logo-temp.png" width="48px" alt="">
+                </div>
+                <h2 class="fw-bold text-center py-5">Taskshaper</h2>
+
+                <!--LOGEO FORM-->
+                <form action="#" id="formLogin">
+                    <div class="mb-4">
+                        <label for="correoE" class="form-label">Cuenta profesional, educativa o personal</label>
+                        <input type="email" name="correoE">
+                    </div>
+                    <div class="mb-4"></div>
+                        <label for="llave" class="form-label">Contraseña</label>
+                        <input type="password" name="llave">
+                    <div class="d-grid">
+                        <button id="btnEntrar" type="submit">Iniciar Sesión</button>
+                    </div>
+                    <div class="my-3">
+                        
+                        <span>¿No está en Taskshaper todavía? <a href="">Registrese aquí</a></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+    <script src="scripts/login_script.js"></script>
+</body>
+</html>
